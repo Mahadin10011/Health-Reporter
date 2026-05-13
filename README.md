@@ -43,3 +43,11 @@ python main.py
 Reports are saved to the `reports/` folder as Markdown files.
 
 ## Project structure
+health_reporter/
+├── main.py          # pipeline orchestrator
+├── collector.py     # OS metric collection (psutil)
+├── analyser.py      # threshold-based flag detection
+├── narrator.py      # LLM narrative generation (Ollama)
+├── reporter.py      # Markdown report writer + notifications
+├── config.json      # configurable thresholds
+└── requirements.txt
