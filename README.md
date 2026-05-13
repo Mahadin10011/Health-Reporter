@@ -43,6 +43,8 @@ python main.py
 Reports are saved to the `reports/` folder as Markdown files.
 
 ## Project structure
+
+```
 health_reporter/
 ├── main.py          # pipeline orchestrator
 ├── collector.py     # OS metric collection (psutil)
@@ -51,3 +53,4 @@ health_reporter/
 ├── reporter.py      # Markdown report writer + notifications
 ├── config.json      # configurable thresholds
 └── requirements.txt
+```
